@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/item-service" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/servlet" />
@@ -27,6 +28,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/springmvc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/thymeleaf-basic" />
+        <option name="gradleJvm" value="17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/thymeleaf-basic" />
           </set>
         </option>
       </GradleProjectSettings>

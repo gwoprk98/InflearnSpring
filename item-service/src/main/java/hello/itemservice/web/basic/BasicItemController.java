@@ -1,6 +1,5 @@
 package hello.itemservice.web.basic;
 
-
 import hello.itemservice.domain.item.Item;
 import hello.itemservice.domain.item.ItemRepository;
 import lombok.RequiredArgsConstructor;
@@ -27,7 +26,7 @@ public class BasicItemController {
     }
 
     @GetMapping("/{itemId}")
-    public String item(@PathVariable Long itemId, Model model) {
+    public String item(@PathVariable long itemId, Model model) {
         Item item = itemRepository.findById(itemId);
         model.addAttribute("item", item);
         return "basic/item";
@@ -38,11 +37,12 @@ public class BasicItemController {
         return "basic/addForm";
     }
 
-    // @PostMapping("/add")
+//    @PostMapping("/add")
     public String addItemV1(@RequestParam String itemName,
                        @RequestParam int price,
                        @RequestParam Integer quantity,
                        Model model) {
+
         Item item = new Item();
         item.setItemName(itemName);
         item.setPrice(price);
@@ -59,23 +59,19 @@ public class BasicItemController {
     public String addItemV2(@ModelAttribute("item") Item item, Model model) {
 
         itemRepository.save(item);
-//        model.addAttribute("item", item); 자동추가, 생략가능
+//      model.addAttribute("item", item); //자동 추가, 생략 가능
 
         return "basic/item";
     }
 
 //    @PostMapping("/add")
     public String addItemV3(@ModelAttribute Item item) {
-
         itemRepository.save(item);
-//        model.addAttribute("item", item); 자동추가, 생략가능
-
         return "basic/item";
     }
 
 //    @PostMapping("/add")
     public String addItemV4(Item item) {
-
         itemRepository.save(item);
         return "basic/item";
     }
@@ -91,7 +87,6 @@ public class BasicItemController {
         Item savedItem = itemRepository.save(item);
         redirectAttributes.addAttribute("itemId", savedItem.getId());
         redirectAttributes.addAttribute("status", true);
-
         return "redirect:/basic/items/{itemId}";
     }
 
@@ -107,14 +102,15 @@ public class BasicItemController {
         itemRepository.update(itemId, item);
         return "redirect:/basic/items/{itemId}";
     }
-    
-    /*
-    * 테스트 데이터 추가
-    * */
+
+    /**
+     * 테스트용 데이터 추가
+     */
     @PostConstruct
     public void init() {
         itemRepository.save(new Item("itemA", 10000, 10));
         itemRepository.save(new Item("itemB", 20000, 20));
-
     }
+
 }
+
