@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inflearn-Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inflearn-Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/hello/itemservice/web/basic/BasicItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/hello/itemservice/web/basic/BasicItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/templates/basic/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/templates/basic/editForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/templates/basic/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/templates/basic/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -63,20 +62,35 @@
     &quot;accountId&quot;: &quot;7514d752-c164-49cc-a39b-a6b70c815a82&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2ssOz2oQn8jCVXz2j5ymaz945RP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build thymeleaf-basic.executor": "Run",
+    "JavaScript Debug.text-basic.html.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ThymeleafBasicApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gwoprk/Desktop/gwoprk/study/inflearn-Spring/thymeleaf-basic/src/main/resources/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +99,27 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ServletApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\thymeleaf-basic\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="item-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
@@ -129,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739241075934</updated>
       <workItem from="1739241077826" duration="839000" />
-      <workItem from="1739241933658" duration="161000" />
+      <workItem from="1739241933658" duration="4040000" />
     </task>
     <servers />
   </component>
