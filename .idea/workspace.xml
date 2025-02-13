@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-basic/src/main/java/inflearnspring/thymeleafbasic/basic/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf-basic/src/main/java/inflearnspring/thymeleafbasic/basic/BasicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf-basic/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf-basic/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +62,10 @@
     &quot;accountId&quot;: &quot;7514d752-c164-49cc-a39b-a6b70c815a82&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -79,6 +79,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build item-service.executor": "Run",
     "Gradle.Build thymeleaf-basic.executor": "Run",
     "JavaScript Debug.text-basic.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -87,6 +88,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ItemServiceApplication.executor": "Run",
     "Spring Boot.ThymeleafBasicApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -120,20 +122,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="item-service.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="servlet.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThymeleafBasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="thymeleaf-basic.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="inflearnspring.thymeleafbasic.ThymeleafBasicApplication" />
@@ -159,7 +147,13 @@
       <option name="presentableId" value="Default" />
       <updated>1739241075934</updated>
       <workItem from="1739241077826" duration="839000" />
-      <workItem from="1739241933658" duration="4040000" />
+      <workItem from="1739241933658" duration="4693000" />
+      <workItem from="1739277241659" duration="2430000" />
+      <workItem from="1739324236098" duration="4033000" />
+      <workItem from="1739336275631" duration="19000" />
+      <workItem from="1739355786625" duration="6003000" />
+      <workItem from="1739363814910" duration="606000" />
+      <workItem from="1739410608938" duration="3445000" />
     </task>
     <servers />
   </component>
