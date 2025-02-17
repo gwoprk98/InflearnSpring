@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/inflearn-Spring.iml" filepath="$PROJECT_DIR$/.idea/inflearn-Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/item-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/item-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpashop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpashop.main.iml" />
     </modules>
   </component>
 </project>
