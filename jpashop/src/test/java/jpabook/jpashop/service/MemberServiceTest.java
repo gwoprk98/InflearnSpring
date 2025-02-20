@@ -54,5 +54,4 @@ class MemberServiceTest {
             memberService.join(member2); // 중복 회원 가입 시도
         }, "IllegalStateException 예외가 발생해야 합니다.");
     }
-
 }
