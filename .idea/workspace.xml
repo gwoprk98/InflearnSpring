@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/repository/MemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,7 @@
       <workItem from="1739847193703" duration="48000" />
       <workItem from="1739873865720" duration="4180000" />
       <workItem from="1739878489197" duration="5227000" />
-      <workItem from="1740041854101" duration="2165000" />
+      <workItem from="1740041854101" duration="3646000" />
     </task>
     <servers />
   </component>
