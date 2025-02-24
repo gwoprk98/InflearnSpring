@@ -9,3 +9,4 @@
   - [상품관리 예제](https://github.com/gwoprk98/InflearnSpring/tree/master/item-service)
 - [스프링 MVC 2편]
   - [타임리프 기본](https://github.com/gwoprk98/InflearnSpring/tree/master/thymeleaf-basic)
+- [실전 스프링 JPA 활용]
