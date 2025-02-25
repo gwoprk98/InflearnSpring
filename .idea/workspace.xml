@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,8 @@
     "Gradle.OrderServiceTest.상품주문_재고수량초과.executor": "Run",
     "Gradle.OrderServiceTest.주문취소.executor": "Run",
     "JavaScript Debug.text-basic.html.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -305,9 +308,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.OrderServiceTest" />
         <item itemvalue="Gradle.OrderServiceTest.상품주문_재고수량초과" />
         <item itemvalue="Gradle.OrderServiceTest.상품주문" />
+        <item itemvalue="Gradle.OrderServiceTest" />
         <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
       </list>
     </recent_temporary>
@@ -367,7 +370,9 @@
       <workItem from="1740371760767" duration="30000" />
       <workItem from="1740393841618" duration="10467000" />
       <workItem from="1740458636410" duration="2000" />
-      <workItem from="1740479032692" duration="3205000" />
+      <workItem from="1740479032692" duration="4236000" />
+      <workItem from="1740486396604" duration="1377000" />
+      <workItem from="1740487798279" duration="852000" />
     </task>
     <servers />
   </component>
