@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/orderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/src/main/java/jpabook/jpashop/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/ex1-hello-jpa">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/item-service">
       <ProjectState />
     </projectState>
@@ -123,7 +125,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -156,7 +158,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JpashopApplication">
+  <component name="RunManager" selected="Spring Boot.Ex1HelloJpaApplication">
     <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -301,6 +303,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ex1HelloJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ex1-hello-jpa.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabasic.ex1hellojpa.Ex1HelloJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JpashopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="jpashop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="jpabook.jpashop.JpashopApplication" />
@@ -381,7 +390,9 @@
       <workItem from="1740572847215" duration="1058000" />
       <workItem from="1740573926722" duration="950000" />
       <workItem from="1740645508715" duration="5983000" />
-      <workItem from="1740657939919" duration="2675000" />
+      <workItem from="1740657939919" duration="3428000" />
+      <workItem from="1740703494549" duration="42000" />
+      <workItem from="1740740603586" duration="1577000" />
     </task>
     <servers />
   </component>
