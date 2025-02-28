@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ex1-hello-jpa" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -50,6 +58,7 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -86,11 +95,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.JpaMain.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build ex1-hello-jpa.executor": "Run",
     "Gradle.Build item-service.executor": "Run",
     "Gradle.Build jpashop.executor": "Run",
     "Gradle.Build thymeleaf-basic.executor": "Run",
     "Gradle.JpashopApplicationTests.contextLoads.executor": "Run",
+    "Gradle.MemberRepositoryTest.executor": "Run",
     "Gradle.MemberRepositoryTest.testMember.executor": "Run",
     "Gradle.MemberServiceTest.executor": "Run",
     "Gradle.MemberServiceTest.중복_회원_예외.executor": "Run",
@@ -99,9 +111,13 @@
     "Gradle.OrderServiceTest.상품주문.executor": "Run",
     "Gradle.OrderServiceTest.상품주문_재고수량초과.executor": "Run",
     "Gradle.OrderServiceTest.주문취소.executor": "Run",
+    "Gradle.ex1-hello-jpa [:hellojpa.JpaMain.main()].executor": "Run",
     "JavaScript Debug.text-basic.html.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -109,10 +125,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Ex1HelloJpaApplication.executor": "Run",
+    "Spring Boot.HelloJpaApplication.executor": "Run",
     "Spring Boot.ItemServiceApplication.executor": "Run",
     "Spring Boot.JpashopApplication.executor": "Run",
     "Spring Boot.ThymeleafBasicApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -126,7 +144,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -145,6 +163,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jpabasic.ex1hellojpa" />
       <recent name="jpabook.jpashop.service" />
       <recent name="jpabook.jpashop" />
     </key>
@@ -159,7 +178,46 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JpaMain">
+    <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ex1-hello-jpa" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jpabasic.ex1hellojpa.MemberRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,30 +232,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;jpabook.jpashop.service.MemberServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemberServiceTest.중복_회원_예외" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;jpabook.jpashop.service.MemberServiceTest.중복_회원_예외&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -304,12 +338,56 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ex1HelloJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ex1-hello-jpa.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabasic.ex1hellojpa.Ex1HelloJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="item-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpashopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="jpashop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jpabook.jpashop.JpashopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="servlet.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.springmvc.SpringmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThymeleafBasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="thymeleaf-basic.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="inflearnspring.thymeleafbasic.ThymeleafBasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Gradle.MemberRepositoryTest" />
         <item itemvalue="Gradle.OrderServiceTest.상품주문_재고수량초과" />
         <item itemvalue="Gradle.OrderServiceTest.상품주문" />
         <item itemvalue="Gradle.OrderServiceTest" />
-        <item itemvalue="Gradle.MemberServiceTest.중복_회원_예외" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +457,7 @@
       <workItem from="1740645508715" duration="5983000" />
       <workItem from="1740657939919" duration="3428000" />
       <workItem from="1740703494549" duration="42000" />
-      <workItem from="1740740603586" duration="2219000" />
+      <workItem from="1740740603586" duration="9033000" />
     </task>
     <servers />
   </component>
