@@ -7,7 +7,10 @@
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/JpaMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,7 +460,7 @@
       <workItem from="1740703494549" duration="42000" />
       <workItem from="1740740603586" duration="9394000" />
       <workItem from="1741083284960" duration="335000" />
-      <workItem from="1741083670031" duration="646000" />
+      <workItem from="1741083670031" duration="4240000" />
     </task>
     <servers />
   </component>
