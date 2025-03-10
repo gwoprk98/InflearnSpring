@@ -3,5 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ex1-hello-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ex1-hello-jpa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/japshop-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/japshop-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpashop-basic/src/main/java" charset="UTF-8" />
   </component>
 </project>
