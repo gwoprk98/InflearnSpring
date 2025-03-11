@@ -16,14 +16,20 @@ public class JpaMain {
         tx.begin();
         try {
 
-            //영속
-            Member member1 = new Member(150L, "A");
-            Member member2 = new Member(160L, "B");
+            //저장
+            Team team = new Team();
+            team.setName("TeamA");
+            em.persist(team);
 
-            em.persist(member1);
-            em.persist(member2);
+            Member member = new Member();
+            member.setUsername("member1");
+            member.setTeam(team);
+            em.persist(member);
 
-            System.out.println("=====================");
+            em.flush();
+            em.clear();
+
+
 
             tx.commit();
         } catch (Exception e) {

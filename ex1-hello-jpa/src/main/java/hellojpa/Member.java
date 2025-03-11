@@ -1,19 +1,25 @@
 package hellojpa;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 public class Member {
 
-    public Member() {}
-
-    public Member(Long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    @Id
+    @Id @GeneratedValue
+    @Column(name = "MEMBER_ID")
     private Long id;
-    private String name;
+
+    @Column(name = "USERNAME")
+    private String username;
+
+//    @Column(name = "TEAM_ID")
+//    private Long teamId;
+
+    @ManyToOne
+    @JoinColumn(name = "TEAM_ID")
+    private Team team;
 }
