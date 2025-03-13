@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/target/classes/hellojpa/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +426,8 @@
       <workItem from="1741700268171" duration="18000" />
       <workItem from="1741752648161" duration="1683000" />
       <workItem from="1741771327709" duration="2625000" />
-      <workItem from="1741785467739" duration="1775000" />
+      <workItem from="1741785467739" duration="2417000" />
+      <workItem from="1741866898383" duration="1003000" />
     </task>
     <servers />
   </component>
