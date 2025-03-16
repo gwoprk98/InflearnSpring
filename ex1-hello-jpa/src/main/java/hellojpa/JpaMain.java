@@ -16,9 +16,21 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         try {
+
             Member member = new Member();
-            member.setCreatedBy("park");
-            member.setCreatedDate(LocalDateTime.now());
+            member.setUsername("JPA");
+
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+//            Member findMember = em.find(Member.class, member.getId());
+            Member findMember = em.getReference(Member.class, member.getId());
+            System.out.println("findMember.getId() = " + findMember.getId());
+            System.out.println("findMember.getUsername() = " + findMember.getUsername());
+
+
 
             tx.commit();
         } catch (Exception e) {
