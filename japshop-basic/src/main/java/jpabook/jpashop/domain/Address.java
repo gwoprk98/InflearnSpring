@@ -20,7 +20,7 @@ public class Address {
     public String fullAddress() {
         return getCity() + " " + getStreet() + " " + getZipcode();
     }
-    
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
