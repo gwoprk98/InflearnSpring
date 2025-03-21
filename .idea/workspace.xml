@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jpql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/japshop-basic/src/main/java/jpabook/jpashop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/japshop-basic/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,76 +93,81 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.JpaMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.jpabook.jpashop.JpaMain.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build ex1-hello-jpa.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build item-service.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build jpashop.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build thymeleaf-basic.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JpashopApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MemberRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MemberRepositoryTest.testMember.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MemberServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MemberServiceTest.중복_회원_예외.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MemberServiceTest.회원가입.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderServiceTest.상품주문.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderServiceTest.상품주문_재고수량초과.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.OrderServiceTest.주문취소.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ex1-hello-jpa [:hellojpa.JpaMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.text-basic.html.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Ex1HelloJpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.HelloJpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ItemServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JpashopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JpashopBasicApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ThymeleafBasicApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gwoprk/Desktop/gwoprk/study/inflearn-Spring/japshop-basic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JpaMain.executor": "Run",
+    "Application.jpabook.jpashop.JpaMain.executor": "Run",
+    "Application.jqpl.JpaMain.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build ex1-hello-jpa.executor": "Run",
+    "Gradle.Build item-service.executor": "Run",
+    "Gradle.Build jpashop.executor": "Run",
+    "Gradle.Build thymeleaf-basic.executor": "Run",
+    "Gradle.JpashopApplicationTests.contextLoads.executor": "Run",
+    "Gradle.MemberRepositoryTest.executor": "Run",
+    "Gradle.MemberRepositoryTest.testMember.executor": "Run",
+    "Gradle.MemberServiceTest.executor": "Run",
+    "Gradle.MemberServiceTest.중복_회원_예외.executor": "Run",
+    "Gradle.MemberServiceTest.회원가입.executor": "Run",
+    "Gradle.OrderServiceTest.executor": "Run",
+    "Gradle.OrderServiceTest.상품주문.executor": "Run",
+    "Gradle.OrderServiceTest.상품주문_재고수량초과.executor": "Run",
+    "Gradle.OrderServiceTest.주문취소.executor": "Run",
+    "Gradle.ex1-hello-jpa [:hellojpa.JpaMain.main()].executor": "Run",
+    "JavaScript Debug.text-basic.html.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Ex1HelloJpaApplication.executor": "Run",
+    "Spring Boot.HelloJpaApplication.executor": "Run",
+    "Spring Boot.ItemServiceApplication.executor": "Run",
+    "Spring Boot.JpashopApplication.executor": "Run",
+    "Spring Boot.JpashopBasicApplication.executor": "Run",
+    "Spring Boot.ThymeleafBasicApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gwoprk/Desktop/gwoprk/study/inflearn-Spring/jpql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jpabook.jpashop.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpql\src\main\resources" />
+      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpql\src\main\resources\META-INF" />
       <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpashop\src\main\resources\templates\order" />
       <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpashop\src\main\resources\static" />
       <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpashop\src\test\resources" />
-      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpashop\src\main\java\jpabook\jpashop" />
-      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpashop\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gwoprk\Desktop\gwoprk\study\inflearn-Spring\jpql\src\main\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="jpabasic.ex1hellojpa" />
@@ -168,6 +175,7 @@
       <recent name="jpabook.jpashop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jqpl" />
       <recent name="jpabook.jpashop.domain" />
     </key>
   </component>
@@ -435,7 +443,7 @@
       <workItem from="1742293903111" duration="157000" />
       <workItem from="1742294105905" duration="3397000" />
       <workItem from="1742467105054" duration="594000" />
-      <workItem from="1742554201425" duration="3069000" />
+      <workItem from="1742554201425" duration="5139000" />
     </task>
     <servers />
   </component>
