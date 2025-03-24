@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c814c1fa-df35-4720-8bd4-28ace3b2b50a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jpql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpql/src/main/java/jqpl/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/jqpl/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpql/src/main/java/jqpl/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/jqpl/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpql/src/main/java/jqpl/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -189,7 +188,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JpaMain">
+  <component name="RunManager">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -443,7 +442,8 @@
       <workItem from="1742293903111" duration="157000" />
       <workItem from="1742294105905" duration="3397000" />
       <workItem from="1742467105054" duration="594000" />
-      <workItem from="1742554201425" duration="5139000" />
+      <workItem from="1742554201425" duration="8063000" />
+      <workItem from="1742816399293" duration="4786000" />
     </task>
     <servers />
   </component>
